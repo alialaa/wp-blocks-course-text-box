@@ -3,7 +3,6 @@
 	"name": "blocks-course/text-box",
 	"title": "Text Box",
 	"category": "text",
-	"icon": "text-page",
 	"description": "A box of text.",
 	"keywords": ["text", "paragraph", "box"],
 	"supports": {
