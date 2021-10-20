@@ -1,13 +1,16 @@
-/**
- * The following styles get applied both on the front of your site
- * and in the editor.
- *
- * Replace them with your own styles or remove the file completely.
- */
-.wp-block-create-block-boilerplate {
+.wp-block-blocks-course-text-box {
   background-color: #21759b;
   color: #fff;
   padding: 2px;
+}
+.wp-block-blocks-course-text-box.text-box-align-right {
+  text-align: right;
+}
+.wp-block-blocks-course-text-box.text-box-align-center {
+  text-align: center;
+}
+.wp-block-blocks-course-text-box.text-box-align-left {
+  text-align: left;
 }
 
 /*# sourceMappingURL=style-index.css.map*/

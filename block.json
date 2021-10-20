@@ -18,6 +18,10 @@
 			"type": "string",
 			"source": "html",
 			"selector": "h4"
+		},
+		"alignment": {
+			"type": "string",
+			"default": "left"
 		}
 	}
 }
