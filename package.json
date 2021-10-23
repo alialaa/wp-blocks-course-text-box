@@ -29,7 +29,8 @@
 		"@wordpress/block-editor": "^6.1.7",
 		"@wordpress/blocks": "^9.1.4",
 		"@wordpress/components": "^18.0.0",
-		"@wordpress/i18n": "^4.1.1"
+		"@wordpress/i18n": "^4.1.1",
+		"classnames": "^2.3.1"
 	},
 	"devDependencies": {
 		"@wordpress/eslint-plugin": "^9.0.6",
