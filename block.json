@@ -22,6 +22,12 @@
 		"alignment": {
 			"type": "string",
 			"default": "left"
+		},
+		"backgroundColor": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
 		}
 	}
 }
