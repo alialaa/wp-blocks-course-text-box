@@ -424,7 +424,55 @@ Object(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__["registerBlockType"])('blo
     attributes: {
       gradient: 'red-to-blue'
     }
-  }]
+  }],
+  transforms: {
+    from: [{
+      type: 'block',
+      blocks: ['core/paragraph'],
+      transform: ({
+        content,
+        align
+      }) => {
+        return Object(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__["createBlock"])('blocks-course/text-box', {
+          text: content,
+          alignment: align
+        });
+      }
+    }, {
+      type: 'enter',
+      regExp: /textbox/i,
+      transform: () => {
+        return Object(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__["createBlock"])('blocks-course/text-box', {
+          shadow: true,
+          gradient: 'red-to-blue'
+        });
+      }
+    }, {
+      type: 'prefix',
+      prefix: 'textbox',
+      transform: () => {
+        return Object(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__["createBlock"])('blocks-course/text-box');
+      }
+    }],
+    to: [{
+      type: 'block',
+      blocks: ['core/paragraph'],
+      isMatch: ({
+        text
+      }) => {
+        return text ? true : false;
+      },
+      transform: ({
+        text,
+        alignment
+      }) => {
+        return Object(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__["createBlock"])('core/paragraph', {
+          content: text,
+          align: alignment
+        });
+      }
+    }]
+  }
 });
 
 /***/ }),
