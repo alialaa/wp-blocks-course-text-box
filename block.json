@@ -31,6 +31,14 @@
 			"type": "string",
 			"default": "left"
 		},
+		"shadow": {
+			"type": "boolean",
+			"default": false
+		},
+		"shadowOpacity": {
+			"type": "number",
+			"default": 30
+		},
 		"backgroundColor": {
 			"type": "string"
 		},

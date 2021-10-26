@@ -1,3 +1,18 @@
+.wp-block-blocks-course-text-box.has-shadow {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.wp-block-blocks-course-text-box.has-shadow.shadow-opacity-10 {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.wp-block-blocks-course-text-box.has-shadow.shadow-opacity-20 {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wp-block-blocks-course-text-box.has-shadow.shadow-opacity-30 {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.wp-block-blocks-course-text-box.has-shadow.shadow-opacity-40 {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
 .wp-block-blocks-course-text-box.text-box-align-right {
   text-align: right;
 }
