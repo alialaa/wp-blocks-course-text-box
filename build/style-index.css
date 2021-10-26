@@ -1,3 +1,9 @@
+.wp-block-blocks-course-text-box.is-style-squared {
+  border-radius: 0;
+}
+.wp-block-blocks-course-text-box.is-style-rounded {
+  border-radius: 10px;
+}
 .wp-block-blocks-course-text-box.has-shadow {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }

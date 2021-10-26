@@ -17,6 +17,14 @@
 			"padding": true
 		}
 	},
+	"styles": [{
+		"name": "squared",
+		"label": "Squared",
+		"isDefault": true
+	}, {
+		"name": "rounded",
+		"label": "Rounded"
+	}],
 	"textdomain": "text-box",
 	"editorScript": "file:./build/index.js",
 	"editorStyle": "file:./build/index.css",
