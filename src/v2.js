@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import { omit } from 'lodash';
 import blockData from '../block.json';
 
-const v1 = {
+const v2 = {
 	supports: {
 		html: false,
 		color: {
@@ -20,11 +20,6 @@ const v1 = {
 		alignment: {
 			type: 'string',
 			default: 'left',
-		},
-		text: {
-			type: 'string',
-			source: 'html',
-			selector: 'h4',
 		},
 	},
 	migrate: ( attributes ) => {
@@ -46,11 +41,11 @@ const v1 = {
 				{ ...useBlockProps.save( {
 					className: classes,
 				} ) }
-				tagName="h4"
+				tagName="p"
 				value={ text }
 			/>
 		);
 	},
 };
 
-export default v1;
+export default v2;
