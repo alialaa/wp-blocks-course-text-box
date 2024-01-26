@@ -1,1 +1,1 @@
-{"version":3,"sources":["webpack:///./src/editor.scss"],"names":[],"mappings":"AAGC;EACC;AAFF,C","file":"index.css","sourcesContent":["\n.wp-block-blocks-course-text-box {\n\n\t.text-box-title {\n\t\tmargin: 0;\n\t}\n}\n"],"sourceRoot":""}
+{"version":3,"file":"index.css","mappings":";;;AAGC;EACC;AAFF,C","sources":["webpack://boilerplate/./src/editor.scss"],"sourcesContent":["\n.wp-block-blocks-course-text-box {\n\n\t.text-box-title {\n\t\tmargin: 0;\n\t}\n}\n"],"names":[],"sourceRoot":""}
